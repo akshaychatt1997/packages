@@ -1,12 +1,17 @@
 {
     "labels": [
         "//drivers/wifi/qualcomm/qca6174",
+        "//drivers/wifi/mediatek/rt5370",
         "//magma:magma_service_driver"
     ],
     "binaries": [
         {
             "binary": "libqca6174.so",
             "bootfs_path": "lib/driver/qca6174.so"
+        },
+        {
+            "binary": "librt5370.so",
+            "bootfs_path": "lib/driver/rt5370.so"
         }
     ]
 }
